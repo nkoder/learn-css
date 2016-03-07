@@ -1,0 +1,15 @@
+.group:before,
+.group:after {
+    content : "";
+    display : table;
+}
+
+.group:after {
+    clear : both;
+}
+
+.group {
+    clear : both;
+    /* IE hack: http://stackoverflow.com/questions/1690642/purpose-of-asterisk-before-a-css-property */
+    *zoom : 1;
+}
