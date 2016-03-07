@@ -1,3 +1,13 @@
+.primary-header a,
+.primary-footer a {
+    color : #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+    color : #648880;
+}
+
 .logo {
     float          : left;
     border-top     : 4px solid #648880;

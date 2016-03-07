@@ -1,6 +1,7 @@
 body {
-    color : #888;
-    font  : 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background : #293f50;
+    color      : #888;
+    font       : 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -64,4 +65,13 @@ a:hover {
 
 p a {
     border-bottom : 1px solid #dfe2e5;
+}
+
+.lead {
+    text-align : center;
+}
+
+.lead p {
+    font-size   : 21px;
+    line-height : 33px;
 }
