@@ -1,11 +1,11 @@
-.venue-theatre {
+.venue {
     margin-bottom : 66px;
 }
 
-.venue-hotel {
+.venue:last-child {
     margin-bottom : 22px;
 }
 
-.venue-map {
+.venue__map {
     height : 264px;
 }
